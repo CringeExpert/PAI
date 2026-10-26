@@ -1,0 +1,128 @@
+:root{
+	--color-bg-1: #FCF0DA;
+	--color-bg-2: #7E7C28;
+	--color-bg-3: #F2C46A;
+	--color-bg-4: #4C4541;
+	
+	--color-font-l: #e0e0e0;
+	--color-font-d: #303030;
+}
+
+
+html{
+	font-size: 16px;
+}
+
+body{
+	background-color: var(--color-bg-1);
+	font-family: "Helvetica";
+
+	padding: 20vw;
+
+
+}
+
+h1{
+	width: 100%;
+	text-align: center;
+}
+
+div{
+	border: solid 1px black;
+}
+
+section{
+	border: solid 1px orange;
+}
+
+article{
+	display: flex;
+
+	flex-direction: column;	
+
+}
+
+#sec1{
+	align-items: center;
+}
+
+#sec2{
+	align-items: flex-start;
+}
+
+#sec3{
+	align-items: flex-end;
+}
+
+img{
+	width: 20vw;
+}
+
+#art4 div{
+	font-weight: 600;
+}
+
+#art4 div > p:first-child{
+	color: cyan;
+}
+
+#art4 div > p:first-of-type{
+	background: black;
+	color: white;
+}
+
+#art4 div + p{
+	color: orange;
+}
+
+a:visited{
+	background: blue;
+	color: white;
+}
+
+
+a:hover{
+	background: cyan;
+}
+
+
+a:active{
+	background: orange ;
+}
+
+a:link{
+	background: black;
+	color: white;
+}
+
+#art5 p::first-line{
+	text-decoration: line-through;
+}
+
+#art5 p::first-letter{
+	font-size: 25px;
+}
+
+#art5::selection{
+	color: white;
+	background-color: black;
+}
+
+img:hover{
+	opacity: 0.5;
+}
+
+#art6 > div{
+
+
+	padding: 50px;
+	background-image: url('wood.jpg');
+	background-repeat: repeat;
+	background-size: contain;
+}
+
+#art6 > div > div{
+	background-color: #DDDDDDAA;
+	text-align: center;
+
+}

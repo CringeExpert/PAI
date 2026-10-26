@@ -1,0 +1,41 @@
+:root{
+	--c1: #FCF0DA;
+	--c2: #F2C46A;
+	--c3: #7E7C28;
+	--c4: #4C4541;
+	
+	--fl: #e0e0e0;
+	--fd: #303030;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+
+html{
+	font-size: 16px;
+}
+
+body{
+	
+	background-color: var(--color-bg-1);
+	font-family: "Helvetica", sans-serif;
+	text-align: center;
+	
+}
+
+header, footer{
+
+	text-align: center;
+	background-color: var(--color-bg-3);
+	min-height: 10vh;
+
+	width: 100%;
+}
+
+main{
+	columns: 4;
+
+}
