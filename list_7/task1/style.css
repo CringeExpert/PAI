@@ -1,0 +1,60 @@
+:root{
+	--c1: #FCF0DA;
+	--c2: #F2C46A;
+	--c3: #7E7C28;
+	--c4: #4C4541;
+	
+	--fl: #e0e0e0;
+	--fd: #303030;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+
+html{
+	font-size: 16px;
+}
+
+body{
+	
+	background-color: var(--c4);
+	font-family: "Helvetica", sans-serif;
+	
+	min-width: none;height: 90vh;
+	padding: 1rem;
+
+}
+
+main{
+	display: grid;
+	gap: 1rem;
+}
+
+div{
+	width: 8rem;
+	height: 4.5rem;
+
+	background: var(--c3);
+}
+
+@media screen and (max-device-width: 599px){
+	main{
+		grid-template-columns: 8rem; 
+	}
+}
+
+@media screen and (min-device-width: 600px) and (max-device-width: 1199px){
+	main{
+		grid-template-columns: 8rem 8rem; 
+	}
+}
+
+@media screen and (min-device-width: 1200px){
+	main{
+		grid-template-columns: 8rem 8rem 8rem; 
+	}
+}
+
